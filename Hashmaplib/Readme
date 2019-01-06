@@ -11,17 +11,20 @@ root = HashMapModification.insert(root, num)
 
 
 #Displaying the List
-HashMapModification.display()
+HashMapModification.inorder(root)
 
 #Deleting the number/key
 HashMapModification.delete_element(root, key):
 
-HashMapModification.display()
+
+#display the List
+HashMapModification.inorder(root)
 
 
 To Lookup particlar number:
   HashMapModification.Lookup(root, key):
   
-HashMapModification.display() 
+i=HashMapModification.Lookup(root,key) 
+print('key',i)
 
 
