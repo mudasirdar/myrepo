@@ -1,0 +1,27 @@
+#Import the library
+from Hashmaplib import *
+
+#Inserting the first eleement:
+root = None
+root = HashMapModification.insert(root, firstnum)
+
+#you can carry on Insert operation by passing the number as:
+
+root = HashMapModification.insert(root, num)
+
+
+#Displaying the List
+HashMapModification.display()
+
+#Deleting the number/key
+HashMapModification.delete_element(root, key):
+
+HashMapModification.display()
+
+
+To Lookup particlar number:
+  HashMapModification.Lookup(root, key):
+  
+HashMapModification.display() 
+
+
