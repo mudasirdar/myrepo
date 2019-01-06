@@ -1,4 +1,4 @@
-#Import the library
+#Import this library by putting folder in python/lib/dist-packages 
 from Hashmaplib import *
 
 #Inserting the first eleement:
