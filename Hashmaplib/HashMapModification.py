@@ -97,29 +97,29 @@ def display():
     #print ("\n")
 
  
-root = None
-root = insert(root, 50) 
-root = insert(root, 30) 
-root = insert(root, 20) 
-root = insert(root, 40) 
-root = insert(root, 80) 
+# root = None
+# root = insert(root, 50) 
+# root = insert(root, 30) 
+# root = insert(root, 20) 
+# root = insert(root, 40) 
+# root = insert(root, 80) 
 
-print('\nList is ')
-display()
-root = deleteNode(root, 20)
+# print('\nList is ')
+# display()
+# root = deleteNode(root, 20)
 
-print('\nList after deleting 20 is: ')
-display()
+# print('\nList after deleting 20 is: ')
+# display()
 
-root = insert(root, 70) 
-root = insert(root, 60) 
+# root = insert(root, 70) 
+# root = insert(root, 60) 
 
-print('\n New Elemnts Inserted:')
-display()
+# print('\n New Elemnts Inserted:')
+# display()
 
 
-find = Lookup(root, 81)
-print('\n finding element',find)
+# find = Lookup(root, 81)
+# print('\n finding element',find)
  
 
  
