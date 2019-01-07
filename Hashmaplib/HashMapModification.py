@@ -90,36 +90,32 @@ def Lookup(root, key):
     elif root.key > key:
         return Lookup(root.left, key)
 
-def display():  
-    
-    #print ("elements are")
-    inorder(root) 
-    #print ("\n")
 
- 
+
+  
 # root = None
 # root = insert(root, 50) 
 # root = insert(root, 30) 
 # root = insert(root, 20) 
 # root = insert(root, 40) 
 # root = insert(root, 80) 
-
+#    
 # print('\nList is ')
-# display()
+# inorder(root)
 # root = deleteNode(root, 20)
-
+#    
 # print('\nList after deleting 20 is: ')
-# display()
-
+# inorder(root)
+#    
 # root = insert(root, 70) 
 # root = insert(root, 60) 
-
+#    
 # print('\n New Elemnts Inserted:')
-# display()
-
-
-# find = Lookup(root, 81)
-# print('\n finding element',find)
- 
+# inorder(root)
+#    
+#    
+# find = Lookup(root, 80)
+# print('\n finding element ',find)
+  
 
  

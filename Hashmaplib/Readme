@@ -1,7 +1,7 @@
 #Import this library by putting folder in python/lib/dist-packages 
 from Hashmaplib import *
 
-#Inserting the first eleement:
+#Inserting the first element:
 root = None
 root = HashMapModification.insert(root, firstnum)
 
@@ -14,14 +14,14 @@ root = HashMapModification.insert(root, num)
 HashMapModification.inorder(root)
 
 #Deleting the number/key
-HashMapModification.delete_element(root, key):
+HashMapModification.deleteNode(root, key):
 
 
 #display the List
 HashMapModification.inorder(root)
 
 
-To Lookup particlar number:
+To Lookup/Search for particlar number:
   HashMapModification.Lookup(root, key):
   
 i=HashMapModification.Lookup(root,key) 
